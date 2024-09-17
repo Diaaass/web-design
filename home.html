@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Hub - Your Source for Films</title>
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="logo-section">
+            <h1 class="site-title">Movie Hub</h1>
+        </div>
+        <nav class="navigation-bar">
+            <ul class="nav-links">
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="categories.html" class="nav-link">Categories</a></li>
+                <li><a href="trending.html" class="nav-link">Trending</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="hero-banner" class="hero-section">
+            <h2 class="hero-title">Discover New Movies & TV Shows</h2>
+            <p class="hero-description">Latest releases, trending now, and fan-favorites—find it all in one place.</p>
+            <button class="hero-button" onclick="location.href='trending.html'">View Trending</button>
+        </section>
+
+        <section id="popular-categories" class="category-section">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="action.jpg" alt="Action Movies" class="category-image">
+                    <h3 class="category-title">Action</h3>
+                </div>
+                <div class="category-item">
+                    <img src="drama.jpg" alt="Drama Movies" class="category-image">
+                    <h3 class="category-title">Drama</h3>
+                </div>
+                <div class="category-item">
+                    <img src="comedy.jpg" alt="Comedy Movies" class="category-image">
+                    <h3 class="category-title">Comedy</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest-releases" class="release-section">
+            <h2 class="section-title">Latest Releases</h2>
+            <div class="release-grid">
+                <div class="release-item">
+                    <h3 class="release-title">Deadpool</h3>
+                    <p class="release-summary">Review summary here...</p>
+                </div>
+                <div class="release-item">
+                    <h3 class="release-title">Avangers</h3>
+                    <p class="release-summary">Review summary here...</p>
+                </div>
+                <div class="release-item">
+                    <h3 class="release-title">Logan</h3>
+                    <p class="release-summary">Review summary here...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
